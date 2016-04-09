@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Auth"
+        android:textAllCaps="false" />
+    <TextView
+        android:text="PIN"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:enabled="false" />
+    <Button
+        android:text="認証"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:enabled="false" />
+</LinearLayout>
